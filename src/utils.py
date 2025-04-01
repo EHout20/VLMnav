@@ -319,3 +319,4 @@ def create_gif(image_dir, interval=600):
     ani.save(f'{image_dir}/animation.gif', writer='imagemagick')
     logging.info('GIF animation saved successfully!')
 
+
